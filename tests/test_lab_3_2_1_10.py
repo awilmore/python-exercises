@@ -1,39 +1,29 @@
 """
-Tests : 3.2.1.10 LAB: The continue statement - the Ugly Vowel Eater
-Link  : https://edube.org/learn/pe-1/lab-the-continue-statement-the-ugly-vowel-eater-3
+See lab file
 """
 
 from exercises.lab_3_2_1_10 import ExerciseLab
 
+###
+# GLOBALS
+###
+
+LAB = ExerciseLab()
+
 
 def test_sample_1():
     """Test sample 1 from exercise"""
-    lab = ExerciseLab()
-
-    # First sample
-    lab.set_exercise_input("Gregory")
-    actual = lab.run()
-
-    assert "GRGRY" == actual
+    LAB.set_exercise_input("Gregory")
+    assert LAB.run() == "GRGRY"
 
 
 def test_sample_2():
     """Test sample 2 from exercise"""
-    lab = ExerciseLab()
-
-    # First sample
-    lab.set_exercise_input("abstemious")
-    actual = lab.run()
-
-    assert "BSTMS" == actual
+    LAB.set_exercise_input("abstemious")
+    assert LAB.run() == "BSTMS"
 
 
 def test_sample_3():
     """Test sample 3 from exercise"""
-    lab = ExerciseLab()
-
-    # First sample
-    lab.set_exercise_input("IOUEA")
-    actual = lab.run()
-
-    assert "" == actual
+    LAB.set_exercise_input("IOUEA")
+    assert LAB.run() == ""

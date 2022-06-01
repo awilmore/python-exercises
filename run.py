@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 """
 Module: python-exercises
 """
@@ -13,4 +15,3 @@ def main():
 # Invoke main method
 if __name__ == "__main__":
     main()
-

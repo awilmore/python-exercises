@@ -4,16 +4,13 @@ Link     : https://edube.org/learn/pe-1/lab-the-continue-statement-the-ugly-vowe
 """
 
 
-from exercises.exercise import Exercise
-
-
-class ExerciseLab(Exercise):
+# pylint: disable=R0801
+class ExerciseLab:
     """
-    Exercise: 3.2.1.10 LAB: The continue statement - the Ugly Vowel Eater
+    Exercise : 3.2.1.10 LAB: The continue statement - the Ugly Vowel Eater
     """
 
     def __init__(self):
-        super().__init__("LAB: The continue statement - the Ugly Vowel Eater", "3.2.1.10")
         self.exercise_input = None
 
     def set_exercise_input(self, exercise_input):
@@ -22,9 +19,6 @@ class ExerciseLab(Exercise):
 
     def run(self):
         """Split word into letters, skip vowels"""
-        super().run()
-
-        # Prepare exercise output
         output = []
 
         # Process input (expect string)
