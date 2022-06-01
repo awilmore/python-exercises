@@ -1,0 +1,14 @@
+# IDE artefacts
+.idea/
+
+# Python artefacts
+.venv/
+*.pyc
+.pytest_cache/
+.coverage
+reports/
+
+# Misc
+working/
+.local
+TODO.md
