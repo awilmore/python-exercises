@@ -23,9 +23,13 @@ class ExerciseLab:
         sorted_list = input_list[:]
         swapped = True
 
+        # Loop until no more changes
         while swapped:
+
+            # Reset status
             swapped = False
 
+            # Loop through elements and look to swap
             for i in range(len(sorted_list) - 1):
                 if sorted_list[i] > sorted_list[i + 1]:
                     swapped = True
