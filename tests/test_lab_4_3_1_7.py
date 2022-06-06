@@ -39,3 +39,21 @@ def test_sample_5():
     """Test sample 5 from exercise"""
     LAB.set_exercise_input((2001, 2))
     assert LAB.run() == 28
+
+
+def test_sample_6():
+    """Check invalid input 1"""
+    LAB.set_exercise_input((-100, 2))
+    assert LAB.run() is None
+
+
+def test_sample_7():
+    """Check invalid input 2"""
+    LAB.set_exercise_input((2000, -2))
+    assert LAB.run() is None
+
+
+def test_sample_8():
+    """Check invalid input 3"""
+    LAB.set_exercise_input((2000, 13))
+    assert LAB.run() is None
