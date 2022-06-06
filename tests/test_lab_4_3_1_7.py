@@ -39,5 +39,3 @@ def test_sample_5():
     """Test sample 5 from exercise"""
     LAB.set_exercise_input((2001, 2))
     assert LAB.run() == 28
-
-
