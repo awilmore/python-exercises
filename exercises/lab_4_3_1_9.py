@@ -30,22 +30,10 @@ class ExerciseLab:
             return True
 
         # Determine prime
-        upper_range = int(number ** 0.5) + 1
+        upper_range = int(number**0.5) + 1
         for i in range(2, upper_range):
             if number % i == 0:
                 return False
 
         # Not prime
         return True
-
-
-#    def is_prime(self, number):
-#        """Determine whether number is prime"""
-#
-#        # Check cache
-#        if number in self.prime_list:
-#            return True
-#
-#        # Calculate prime
-
-
