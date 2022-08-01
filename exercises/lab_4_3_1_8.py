@@ -1,6 +1,6 @@
 """
 Exercise : 4.3.1.8 LAB: Day of the year: writing and using your own functions
-Link     : https://edube.org/learn/pe-1/lab-how-many-days-writing-and-using-your-own-functions-2
+Link     : https://edube.org/learn/pe-1/lab-day-of-the-year-writing-and-using-your-own-functions-2
 """
 
 
