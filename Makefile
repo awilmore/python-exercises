@@ -8,12 +8,6 @@ include Makehelp.mk
 ###
 
 
-## Create/activate python virtualenv
-venv:
-	./scripts/make.sh venv
-.PHONY: venv
-
-
 ## Format python code using black
 fmt:
 	. .venv/bin/activate && black --line-length 256 .

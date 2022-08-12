@@ -1,6 +1,6 @@
 """
 Exercise : 4.5.1.7 LAB: Creating functions - Fibonacci numbers (recursive)
-Link     : https://edube.org/learn/pe-1/creating-functions-factorials-3
+Link     : https://edube.org/learn/pe-1/creating-functions-fibonacci-numbers-3
 """
 
 
